@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7fbff;
+    color: #171718;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #080808;
+}
+
+
+.jumbotron {
+    background: url('../productos/banner.jpg') no-repeat center center;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 4px rgba(207, 193, 193, 0.5);
+    padding: 10rem 1rem;
+    margin-bottom: 0;
+}
+
+
+.navbar {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand {
+    background: url('../productos/logo.jpg') no-repeat center center;
+    background-size: contain;
+    height: 80px; 
+    width: 300px; 
+    display: inline-block;
+    margin-right: 20px
+    
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    list-style: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.navbar-nav .nav-item {
+    margin-left: 15px;
+}
+
+.navbar-nav .nav-link {
+    color: #343a40 !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff !important;
+}
+
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card .card-img-top {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+#producto1 {
+    background-image: url('../productos/producto1.jpg');
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+#producto2 {
+    background-image: url('../productos/producto2.jpg');
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+#producto3 {
+    background-image: url('../productos/producto3.png');
+    background-size: 250px;
+    background-repeat: no-repeat;
+
+}
+
+
+footer {
+    background-color: #343a40;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+#resultadoSimulacion {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.galeria .img-fluid {
+  
+    height: 200px ;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 15px;
+    
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        height: 40px;
+    }
+
+    .jumbotron {
+        padding: 4rem 1rem;
+    }
+
+    .card-title {
+        font-size: 1.2rem;
+    }
+}
